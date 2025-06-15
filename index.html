@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <h1>Pokemon</h1>
+    <div class="container">
+        <input type="text" id="pokemon-name" placeholder="Enter a Pokemon name">
+        <button type="button" onclick="getPokemonImage(); getPokemon(document.getElementById('pokemon-name').value);">Get Pokemon Information</button>
+    </div>
+
+    <div class="result-container">
+        <div id="pokemon-cardcolor">
+            <div id="pokemon-image">
+                <h1>Pokemon</h1>
+            </div>
+
+
+            <div id="pokemon-card"></div>
+        </div>
+    </div>
+
+     <!-- Link to external JS -->
+     <script src="script.js/script.js"></script>
+
+</body>
+</html>
